@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ensures the layout adapts to different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>University Website Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&displ ay=swap" rel="stylesheet">
+<!-- Latest Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="sub-Header">
+      <nav>
+     <a href="index.html"><img src="images/logo.png" alt=""></a>
+     <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"> </i>
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="about.html">ABOUT</a></li>
+            <li> <a href="course.html">COURSE</a></li>
+            <li> <a href="blog.html">BLOG</a></li>
+            <li> <a href="contact.html">CONTACT</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Exploring University Life At IOBM</h1>
+    </section>
+
+   
+     <!---------Blog Page Content----------------->
+     <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg">
+                <h2>University Blog Page</h2>
+                <p>Our Students: Excelling in Every Walk of Life
+                    At our university, we take pride in nurturing individuals who not only excel academically but also shine in diverse fields. Our students have carved a niche for themselves in technology, arts, sports, business, and social sciences. From crafting innovative tech solutions and designing captivating artwork to leading impactful social initiatives, their achievements are a testament to our commitment to holistic education. Each student brings their unique story of passion, perseverance, and purpose, reflecting the core values of our institution.
+                    </p>
+                    <br>
+                    <p>Our students are known for pushing boundaries and exploring new horizons. With state-of-the-art facilities and guidance from experienced faculty, they participate in groundbreaking research, international competitions, and community outreach programs. Whether it’s launching startups, publishing thought-provoking papers, or representing the university on global platforms, their endeavors speak volumes about their drive to make a difference. By integrating theory with practical application, we empower our students to contribute meaningfully to society.</p>
+                        <p>A Vibrant Community of Learners
+                            The spirit of collaboration and curiosity defines life at our university. From engaging in lively discussions to organizing cultural festivals and hackathons, our students embrace opportunities to grow as individuals and as a community. They embody the balance of hard work and creativity, making the campus a vibrant hub of innovation and inspiration. We are proud to see them shaping a better future while building lifelong friendships and memories along the way.</p>
+                            <br>
+                        
+
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+    <form class="comment-form">
+<input type="text" placeholder="Enter Name">
+<input type="Email" placeholder="Enter Email">
+<textarea rows="5" placeholder="Your Comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+
+
+
+
+
+            </div>
+            <div class="blog-right">
+                <h3>Explore</h3>
+                <div>
+                    <span>Student Achievements</span>
+                    
+                </div>
+                <div>
+                    <span>Alumni Success Stories</span>
+                    
+                </div>
+                <div>
+                    <span>Campus Events and Highlights</span>
+                    
+                </div>
+                <div>
+                    <span>Research and Innovation</span>
+                    
+                </div>
+                <div>
+                    <span>Faculty Insights and Perspectives</span>
+                    
+                </div>
+                <div>
+                    <span>Student Life and Experiences</span>
+                    
+                </div>
+                <div>
+                    <span>How-To Guides for Students</span>
+                    
+                </div>
+                <div>
+                    <span>Global Opportunities</span>
+                    
+                </div>
+                <div>
+                    <span>Community Outreach and Impact</span>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
+
+     </section>   
+
+
+
+
+
+
+
+
+
+    
+<!-- Footer -->
+
+<section class="foot">
+<h4>About Us</h4>
+<p>The Institute of Business Management (IoBM) is one of Pakistan’s leading educational institutions, dedicated to providing high-quality education and fostering innovation across a range of disciplines. Established with the vision of shaping future leaders, IoBM offers diverse programs in business, computer science, social sciences, and more.</p>
+<p>Our campus is equipped with state-of-the-art facilities, and our faculty members are experts in their fields, committed to guiding students through a dynamic and challenging learning environment. With a focus on academic excellence, practical experience, and personal development, IoBM aims to create well-rounded professionals who are ready to contribute meaningfully to society and the global workforce.</p>
+<p>At IoBM, we believe in cultivating a culture of innovation, integrity, and collaboration, where every student has the opportunity to excel and achieve their full potential.</p>
+
+<div class="icon">
+    
+    <i class="fab fa-facebook" aria-hidden="true"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+
+</section>
+
+    <!-- JavaScript for Menu -->
+    <script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0"; // Use the correct variable name
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px"; // Use the correct variable name
+}
+
+
+</script>
+
+</body>
+</html>

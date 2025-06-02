@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ensures the layout adapts to different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>University Website Project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&displ ay=swap" rel="stylesheet">
+<!-- Latest Font Awesome CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="Header">
+      <nav>
+     <a href="index.html"><img src="images/logo.png" alt=""></a>
+     <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"> </i>
+        <ul>
+            <li> <a href="index.html">HOME</a></li>
+            <li> <a href="about.html">ABOUT</a></li>
+            <li> <a href="course.html">COURSE</a></li>
+            <li> <a href="blog.html">BLOG</a></li>
+            <li> <a href="contact.html">CONTACT</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Welcome to the Institute of Business Management</h1>
+        <p>The Institute of Business Management (IoBM) is a leading institution in Pakistan, committed to academic excellence and innovation. Offering a diverse range of programs in business, computer science, social sciences, and more, IoBM provides students with a dynamic environment to learn, grow, and excel. With state-of-the-art facilities, experienced faculty, and a vibrant campus life, IoBM is the perfect place to shape your future and achieve your dreams.</p>
+    <br>
+        <a href=""class="hero-btn">Visit Us</a>  
+    </div>
+    </section>
+
+<!-- Buildings -->
+
+<section class="building">
+    <h1>Resources and Facilities</h1>
+    <p>The Institute of Business Management is home to modern, purpose-built buildings designed to foster a conducive learning environment. The campus features spacious lecture halls, well-equipped classrooms, and dedicated laboratories for various disciplines. Each building is equipped with advanced technology to support interactive learning and research. IoBM also provides comfortable common areas, meeting rooms, and student lounges, ensuring a balance between academic focus and relaxation. The design of the buildings reflects our commitment to providing students with a world-class educational experience.</p>
+
+   <div class="row">
+
+       <div class="build-col">
+           <img src="images/SSK.png">
+           <div class="layer">
+               <h3>SSK</h3>
+            </div>
+            </div>
+
+   <div class="build-col">
+               <img src="images/computer building.png">
+               <div class="layer">
+                   <h3>COMPUTER THING</h3>
+               </div>
+</div>
+   <div class="build-col">
+                   <img src="images/CBM.png">
+                   <div class="layer">
+                       <h3>CBM</h3>
+                   </div>
+       </div>
+   </div>
+
+    </section>
+
+<!-- Testimonials -->
+
+<section class="testimonials">
+        
+    <h1>What Our Student Opinions</h1>
+    <p>IoBM has shaped countless success stories through its exceptional faculty, modern facilities, and a vibrant learning environment. Students thrive here, turning ambitions into achievements and creating a bright future.</p>
+
+<div class="row">
+
+    <div class="testm-col">
+        <img src="images/user1.jpg">
+        <div>
+            <p>"Studying at the Institute of Business Management has been an incredible experience. The diverse learning environment, coupled with cutting-edge facilities and a dedicated faculty, has helped me grow both personally and professionally. IoBM has provided me with the knowledge and skills necessary to excel in my field, and I am proud to be a part of such a dynamic institution."</p>
+        <h3>Muhammad Tayyab</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-half-o"></i>
+        </div>
+    </div>
+
+    <div class="testm-col">
+        <img src="images/user2.jpg">
+        <div>
+            <p>"IoBM has truly been a transformative experience for me. The hands-on learning approach, coupled with a supportive community and a variety of extracurricular activities, has helped me sharpen my skills and build lifelong connections. The faculty’s expertise and the campus’s modern resources have made my journey here both enriching and rewarding."</p>
+        <h3>Essa</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fas fa-star-o"></i>
+        <i class="fas fa-star-o"></i>
+        </div>
+    </div>
+</div>
+
+ </section>
+
+<!-- Call to actions -->
+
+<section class="cta">
+<h1>Enroll for Spring 2025</h1>
+<a href="" class="hero-btn">ENROLL NOW</a>
+
+</section>
+
+<!-- Footer -->
+
+<section class="foot">
+<h4>About Us</h4>
+<p>The Institute of Business Management (IoBM) is one of Pakistan’s leading educational institutions, dedicated to providing high-quality education and fostering innovation across a range of disciplines. Established with the vision of shaping future leaders, IoBM offers diverse programs in business, computer science, social sciences, and more.</p>
+<p>Our campus is equipped with state-of-the-art facilities, and our faculty members are experts in their fields, committed to guiding students through a dynamic and challenging learning environment. With a focus on academic excellence, practical experience, and personal development, IoBM aims to create well-rounded professionals who are ready to contribute meaningfully to society and the global workforce.</p>
+<p>At IoBM, we believe in cultivating a culture of innovation, integrity, and collaboration, where every student has the opportunity to excel and achieve their full potential.</p>
+
+<div class="icon">
+    
+    <i class="fab fa-facebook" aria-hidden="true"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+
+</section>
+
+    <!-- JavaScript for Menu -->
+    <script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu() {
+    navLinks.style.right = "0"; // Use the correct variable name
+}
+
+function hideMenu() {
+    navLinks.style.right = "-200px"; // Use the correct variable name
+}
+
+
+</script>
+
+</body>
+</html>
